@@ -1,6 +1,10 @@
 from discord.commands import Option
+import wolframalpha
+client = wolframalpha.Client("YOUR-WOLFRAMALPHA-TOKEN")
 
-@bot.slash_command(name="math", description="算數學(2*2=4)")
+
+
+@bot.slash_command(description="算數學(2*2=4)")
 async def math(ctx, query=Option(str, "問題", required=True, default=None)):
     res = client.query(query)
     embed = discord.Embed(title=next(res.results).text)
