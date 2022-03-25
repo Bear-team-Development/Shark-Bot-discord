@@ -1,4 +1,4 @@
 # Shark-Bot-command
-### 這是放鯊妹(サメちゃん)的開源指令區
-### 會放一些鯊妹(サメちゃん)使用的指令
-### 在這個倉庫裡的代碼是開源的可以在別的bot使用
+### 這是放鯊妹(サメちゃん)的開源倉庫
+### 只有部分指令的代碼開源
+### 此倉庫使用[MIT許可證](https://github.com/Bear-team-Development/Shark-Bot-discord/blob/main/LICENSE)開源
