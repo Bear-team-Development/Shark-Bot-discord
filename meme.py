@@ -1,4 +1,4 @@
-
+import aiohttp
 @bot.slash_command(description="meme")
 async def meme(ctx):
     async with aiohttp.ClientSession() as session:
