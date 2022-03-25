@@ -1,3 +1,4 @@
+from discord.commands import Option
 
 @bot.slash_command(description="開啟語音活動（感謝ChinGH#2459提供活動代碼)，僅限電腦版")
 async def game(
